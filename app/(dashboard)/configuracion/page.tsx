@@ -1,8 +1,5 @@
 'use client'
 
-// Force dynamic rendering for auth check
-export const dynamic = 'force-dynamic'
-
 import { useEffect, useState } from 'react'
 import { Lock, Unlock, Trash2, UserPlus } from 'lucide-react'
 

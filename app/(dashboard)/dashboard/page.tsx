@@ -1,8 +1,5 @@
 'use client'
 
-// Force dynamic rendering for auth check
-export const dynamic = 'force-dynamic'
-
 import { useEffect, useState, useCallback } from 'react'
 import { TrendingUp, Package, FileText, Calendar, Euro, Filter, X, BarChart3, Plane, CheckCircle, Clock, AlertTriangle, Users, ArrowUpRight, ArrowDownRight } from 'lucide-react'
 
