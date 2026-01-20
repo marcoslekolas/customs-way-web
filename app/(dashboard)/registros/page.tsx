@@ -1,5 +1,8 @@
 'use client'
 
+// Force dynamic rendering for auth check
+export const dynamic = 'force-dynamic'
+
 import React, { useEffect, useState } from 'react'
 import { Plus, Package, CheckCircle, Euro, Plane, ChevronDown, ChevronRight, Edit, Trash2, Filter, X } from 'lucide-react'
 import RecordModal from '../components/RecordModal'
