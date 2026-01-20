@@ -1,5 +1,8 @@
 'use client'
 
+// Force dynamic rendering for all dashboard pages
+export const dynamic = 'force-dynamic'
+
 import { useRouter, usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { Home, FileText, Database, Settings, LogOut, Menu, X } from 'lucide-react'
